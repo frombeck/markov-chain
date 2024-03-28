@@ -41,7 +41,7 @@ for _ in range(4):
     current_state = next_state
 
 print("Generated numbers:", generated_numbers)
-past = [33, 64, 30, 54, 59]
+past = [37,46,57,60,66]
 while(generated_numbers == past):
     print("Match", generated_numbers)
 else:
